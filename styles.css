@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("one_piece.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#content {
+    padding: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#message-container {
+    margin-top: 50px;
+}
+
+#additional-content {
+    margin-bottom: 50px;
+}
+
+#game-container {
+    margin-bottom: 50px;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.option {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#next-button {
+    padding: 10px 20px;
+    background-color: #ffbb00;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
